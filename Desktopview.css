@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body
+{
+    background-color: #3754d3;
+    font-family: 'Quicksand', sans-serif;
+
+    background-image: url("https://i.pinimg.com/originals/38/77/b0/3877b0c9b1352f3959116cef69fe6bf8.jpg");
+    background-size: cover;
+}
+
+#container
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#card, #gallery, #videos, #footer
+{
+    background-color: rgb(196, 96, 96);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 20px 20px 50px #00000049;
+    float: left;
+}
+#card  
+{
+    width: 430px;
+    height: auto;
+
+}
+
+#gallery
+{
+   width: 520px; 
+   height: auto;
+   margin-left: 20px;
+   padding-top: 8px;
+}
+
+#videos
+{
+margin-top: 20px;
+width: 800px;
+}
+
+#footer
+{
+    width: 1210px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: black;
+    color: gray;
+}
+.container div
+{
+    width: 500px;
+    height: 480px;
+    background-color:rgb(170, 181, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    background-size: cover;
+    background-position: center;
+
+    cursor: pointer;
+}
+#item1 {background-image: url("img/aey1.JPG");}
+#item2 {background-image: url("img/aey2.JPG");}
+#item3 {background-image: url("img/sg5.jpeg");}
+#item4 {background-image: url("img/aeyresu.png");}
+#item5 {background-image: url("img/aeyhost.png");}
+#item6 {background-image: url("img/photo1.jpeg");}
+#item7 {background-image: url("img/photo2.jpeg");}
+#item8 {background-image: url("img/photo3.jpeg");}
+#item9 {background-image: url("img/photo4.jpeg");}
+#item10 {background-image: url("img/photo5.jpeg");}
+#item11 {background-image: url("img/FullSizeRender.mp4");}
+h1, h4, p
+{
+    padding: 0 30px;
+    margin: 0;
+    text-align: justify;
+}
+
+h1
+{
+    margin-top: 20px;
+}
+
+p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a, a:visited, a:active
+{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(20, 100, 220);
+}
+
+a:hover
+{
+    color: lightskyblue;
+    text-decoration: overline;
+    /* background-color: salmon; */
+}
+
+#pic
+{
+    width: 400px;
+}
+
+#icon_fb:hover
+{
+    content: url("img/icon_1\ -\ Copy.png");
+}
+
+#icon_tw:hover
+{
+    content: url("img/icon_2\ -\ Copy.png");
+}
+
+#icon_ig:hover
+{
+    content: url("img/icon_3\ -\ Copy.png");
+}
+
+#icon_yo:hover
+{
+    content: url("img/icon_4\ -\ Copy.png");
+}
+
+#icon_pi:hover
+{
+    content: url("img/icon_5\ -\ Copy.png");
+}
+
+#socials
+{
+    list-style-type: none;
+    /* padding: 0 30px; */
+    /* background-color: black; */
+    width: 300px;
+    margin: 0 auto;
+}
+
+#socials li
+{
+    display: inline;
+    margin-right: 7px;
+}
+
+#workdays
+{
+    padding: 0 45px;
+}
+
+#skills
+{
+    padding: 0 45px
+}
+
+#socmed_header
+{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+hr
+{
+    width: 250px;
+    height: 0px;
+    border: none;
+    border-bottom: 5px dotted dimgrey;
+    /* border: none; */
+}
+
+#navbar
+{
+    list-style-type: none;
+    background-color: black;
+    padding: 5px;
+}
+
+#navbar li
+{
+    display: inline;
+}
+
+#navbar li a, 
+#navbar li a:visited,
+#navbar li a:active
+{
+    background-color: black;
+}
+
+#navbar li a:hover
+{
+    background-color: white;
+    text-decoration: none;
+}

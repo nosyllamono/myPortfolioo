@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Allyson Sambajon</title>
+        <link rel="shortcut icon" type="image/jpg" href="img/aey11.jpg">
+        <link rel="stylesheet" href="Desktopview.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="card">
+                <center>
+                <img id="pic" src="img/aey12.jpg">
+                <h1>Allyson Sambajon</h1>
+                <h4>I.T. Student</h4>
+            </center>
+
+                <hr>
+                <div class="container">
+                    <div id="item1" onClick="aboutme()"> <p style="background-color:tomato;">about me.</p></div>
+                    <div id="item2" onClick="myprofile()"><p style="background-color:tomato;">my profile.</p></div>
+                    <div id="item3" onClick="myprojects()"><p style="background-color:tomato;">my projects.</p></div>
+
+                </div>
+                <hr>
+                <h4 id="socmed_header">Social Media</h4>
+                <ul id="socials">
+                    <li><a href="#"><img id="icon_fb" src="img/icon_1.png" onClick="fb()"></a></li>
+                    <li><a href="#"><img id="icon_tw" src="img/icon_2.png"></a></li>
+                    <li><a href="#"><img id="icon_ig" src="img/icon_3.png" onClick="inst()"></a></li>
+                    <li><a href="#"><img id="icon_yo" src="img/icon_4.png" onClick="yt()"></a></li>
+                    <li><a href="#"><img id="icon_pi" src="img/icon_5.png"></a></li>
+                </ul>
+<hr>
+<hr>
+<h4> Statement of Originality</h4>
+<p> I, Allyson Sambajon, can authenticate that I have carried out my project with not a sing form of plagarism. All of my inputs, methods, data and process in my program are honest.
+    i have not manipulated, or operated dishonesty with the data contents of my project
+</p>
+<hr>
+<hr>
+            </div>
+            
+         
+        </div>
+
+       
+        <div id="container">
+            <div id="footer">
+                <h3>©2022, Designed by Allyson Sabajon</h3>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script>
+    function aboutme(){
+        newTab = open("AboutMe.html");
+    }
+    function myprofile(){
+        newTab = open("Profile.html");
+    }
+    function myprojects(){
+        newTab = open("Projects.html");
+    }
+</script>
+
+<script src="magic-grid.min.js"></script>
+<script>
+let magicGrid = new MagicGrid({
+    container: '.container',
+    animate: true,
+    gutter: 10,
+    static: true,
+    useMin: true
+})
+  magicGrid.listen();
+
+  function ShowImag()
+  {
+      alert("wasup")
+  }
+</script>
+<script>
+    function fb()
+    {
+        newTab = open("https://web.facebook.com/nosyllamono.0804")
+    }
+    function inst()
+    {
+        newTab = open("https://www.instagram.com/nosyllamono/")
+    }
+    function yt()
+    {
+        newTab = open("https://www.youtube.com/c/AeyCovers")
+    }
+</script>
